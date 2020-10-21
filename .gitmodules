@@ -1,0 +1,3 @@
+[submodule "VOX-Splitter"]
+	path = VOX-Splitter
+	url = https://github.com/timkaiser/VOX-Splitter.git

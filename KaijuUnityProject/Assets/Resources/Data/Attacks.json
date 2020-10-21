@@ -1,0 +1,70 @@
+{
+"attacks": [
+	{
+		"id" : 0,
+		"damage" : 0,
+		"energy" : 0,
+		"animationName" : "None"
+	},
+	{
+		"id" : 1,
+		"damage" : 25,
+		"energy" : 1,
+		"animationName" : "Punch"
+	},
+	{
+		"id" : 2,
+		"damage" : 25,
+		"energy" : 1,
+		"animationName" : "PunchFlipped"
+	},
+	{
+		"id" : 3,
+		"damage" : 50,
+		"energy" : 3,
+		"animationName" : "swipe"
+	},
+	{
+		"id" : 4,
+		"damage" : 50,
+		"energy" : 3,
+		"animationName" : "SwipeFlipped"
+	},
+	{
+		"id" : 5,
+		"damage" : 100,
+		"energy" : 1,
+		"animationName" : "jumpattack2"
+	},
+	{
+		"id" : 6,
+		"damage" : 20,
+		"energy" : 1,
+		"animationName" : "kick"
+	},
+	{
+		"id" : 7,
+		"damage" : 20,
+		"energy" : 1,
+		"animationName" : "kickFlipped"
+	},
+	{
+		"id" : 8,
+		"damage" : 100,
+		"energy" : 3,
+		"animationName" : "strikeForward"
+	},
+	{
+		"id" : 9,
+		"damage" : 60,
+		"energy" : 2,
+		"animationName" : "strikeForward2"
+	},
+	{
+		"id" : 10,
+		"damage" : 100,
+		"energy" : 5,
+		"animationName" : "headbutt2"
+	}
+]
+}

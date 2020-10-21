@@ -1,0 +1,177 @@
+{
+  "levels": 
+  [
+    {
+      "id": 0,
+      "nextLevelId": 1,
+      "title": "Demo",
+      "difficulty": 1,
+      "time": 300,
+      "width": 2,
+      "height": 2,
+      "tasks": [
+        {
+          "id": 0,
+          "nextTaskId": 1,
+          "title": "Basics first!",
+          "description": "Try kicking with X!",
+          "requiresEnemies": [],
+          "requiresDestructibles": [],
+          "requiresInput": [ 4 ],
+          "requiresHighscorePoints":  0
+        },
+        {
+          "id": 1,
+          "nextTaskId": 2,
+          "title": "Basics first!",
+          "description": "Try punching with A!",
+          "requiresEnemies": [],
+          "requiresDestructibles": [],
+          "requiresInput": [ 1 ],
+          "requiresHighscorePoints": 0
+        },
+        {
+          "id": 2,
+          "nextTaskId": 3,
+          "title": "Basics first!",
+          "description": "Try a punch combo with A -> A!",
+          "requiresEnemies": [],
+          "requiresDestructibles": [],
+          "requiresInput": [ 1, 2 ],
+          "requiresHighscorePoints": 0
+        },
+        {
+          "id": 3,
+          "nextTaskId": 4,
+          "title": "My first destroyed object!",
+          "description": "Destroy a hydrant with punches!",
+          "requiresEnemies": [],
+          "requiresDestructibles": [ 12 ],
+          "requiresInput": [],
+          "requiresHighscorePoints": 0
+        },
+        {
+          "id": 4,
+          "nextTaskId": 5,
+          "title": "Basics first!",
+          "description": "Try a kick combo with X -> X!",
+          "requiresEnemies": [],
+          "requiresDestructibles": [],
+          "requiresInput": [ 4, 5 ],
+          "requiresHighscorePoints": 0
+        },
+        {
+          "id": 5,
+          "nextTaskId": 6,
+          "title": "Now with kicks!",
+          "description": "Destroy two cones using kicks!",
+          "requiresEnemies": [],
+          "requiresDestructibles": [ 5, 5 ],
+          "requiresInput": [],
+          "requiresHighscorePoints": 0
+        },
+        {
+          "id": 6,
+          "nextTaskId": 7,
+          "title": "Combo Speciale #1",
+          "description": "Use a special punch combo A -> A -> A!",
+          "requiresEnemies": [],
+          "requiresDestructibles": [],
+          "requiresInput": [ 1, 2, 3 ],
+          "requiresHighscorePoints": 0
+        },
+        {
+          "id": 7,
+          "nextTaskId": 8,
+          "title": "Combo Speciale #2",
+          "description": "Use another special punch combo A -> A -> Y!",
+          "requiresEnemies": [],
+          "requiresDestructibles": [],
+          "requiresInput": [ 1, 2, 7 ],
+          "requiresHighscorePoints": 0
+        },
+        {
+          "id": 8,
+          "nextTaskId": 9,
+          "title": "Combo Speciale #3",
+          "description": "Use a special kick combo X -> X -> X!",
+          "requiresEnemies": [],
+          "requiresDestructibles": [],
+          "requiresInput": [ 4, 5, 6 ],
+          "requiresHighscorePoints": 0
+        },
+        {
+          "id": 9,
+          "nextTaskId": 10,
+          "title": "Woodcutting",
+          "description": "Try the combos and cut some trees!",
+          "requiresEnemies": [],
+          "requiresDestructibles": [ 3, 3, 3 ],
+          "requiresInput": [],
+          "requiresHighscorePoints": 0
+        },
+        {
+          "id": 10,
+          "nextTaskId": 11,
+          "title": "Firefighter",
+          "description": "Use a fireball attack! (Hold B!)",
+          "requiresEnemies": [],
+          "requiresDestructibles": [],
+          "requiresInput": [ 11 ],
+          "requiresHighscorePoints": 0
+        },
+        {
+          "id": 11,
+          "nextTaskId": -1,
+          "title": "Wrecking Ball",
+          "description": "Use your skills and destroy the house!",
+          "requiresEnemies": [],
+          "requiresDestructibles": [ 1 ],
+          "requiresInput": [],
+          "requiresHighscorePoints": 0
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "nextLevelId": 2,
+      "title": "Level",
+      "difficulty": 2,
+      "time": 300,
+      "width": 11,
+      "height": 7,
+      "tasks": [
+        {
+          "id": 0,
+          "nextTaskId": 1,
+          "title": "A Start in a new world",
+          "description": "Reach 3000 points!",
+          "requiresEnemies": [],
+          "requiresDestructibles": [],
+          "requiresInput": [],
+          "requiresHighscorePoints": 3000
+        },
+        {
+          "id": 1,
+          "nextTaskId": 2,
+          "title": "A Start in a new world",
+          "description": "Reach 15000 points!",
+          "requiresEnemies": [],
+          "requiresDestructibles": [],
+          "requiresInput": [],
+          "requiresHighscorePoints": 15000
+        },
+        {
+          "id": 2,
+          "nextTaskId": -1,
+          "title": "A Start in a new world",
+          "description": "Destroy the TV-Tower!",
+          "requiresEnemies": [],
+          "requiresDestructibles": [ 16 ],
+          "requiresInput": [],
+          "requiresHighscorePoints": 0
+        }
+      ]
+    }    
+  ]
+} 
